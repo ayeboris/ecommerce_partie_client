@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestion des Produits</title>
+    <link rel="stylesheet" href="public/css/style.css">
+
+</head>
+
+<body>
+<!-- HEADER -->
+<header id="header">
+    <div class="container">
+        <div class="row">
+            <div ><a href="index.html" class="header-logo">Tableau de bord</a></div>
+            <div class="header-logo">
+                <a href="Commandes.html">Commandes(3)</a>
+
+            </div>
+            <div class="header-logo">
+                Admin(<a href="">Deconnexion</a>)
+            </div>
+        </div>
+    </div>
+</header>
+<!-- FIN HEADER -->
+
+<!--GRAND CORPS DU PROGRAMME -->
+<section id="main">
+    <div class="row">
+        <!-- ASIDE -->
+        <section id="aside">
+            <div class="card">
+                <! Titre du connecté >
+                <div class="card-body">
+                    <img src="public/img/car2.jpg" alt="Photo de connecte" width="100px">
+                    <p><i class="text-center">Titre du connecté</i></p>
+                </div>
+            </div>
+            <! Les differents onglets URL >
+            <ul class="liste">
+                <li><a href="Categories.html" class="lien">Categories</a></li>
+                <li><a href="Marques.html" class="lien">Marques</a></li>
+                <li><a href="Produits.html" class="lien">Produits</a></li>
+                <li><a href="Commandes.html" class="lien">Commandes</a></li>
+                <li><a href="Comptes.html" class="lien">Les Comptes</a></li>
+                <li><a href="Commentaires.html" class="lien">Commentaires</a></li>
+                <li><a href="Mots_absurdes.html" class="lien">Mots absurbes</a></li>
+                <li><a href="Info.html" class="lien">Info de la structure</a></li>
+            </ul>
+        </section>
+        <!-- FIN ASIDE -->
+
+        <!-- CORPS PRINCIPAL -->
+        <section id="main-container">
+            <div class="container">
+
+                <! Entete de la page>
+                <div class="main-harder">
+                    <h3>Gestion des categories</h3>
+                    <a href="Categories-manager.html">Ajouter</a>
+                    <p><input type="text" id="myInput" onkeyup="myFunction()" placeholder="Chercher .."></p>
+                </div>
+                <! FIN Entete de la page>
+            </div>
+            <div class="container">
+
+                <! corps principal de la page >
+                <div class="main-body">
+                    <div class="row">
+                        <! Un block >
+
+                        <table id="myTable">
+                            <!Entete de la table en question>
+                            <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Libelle</th>
+                                <th>Photo</th>
+                                <th>Actions</th>
+                            </tr>
+
+                            </thead>
+                            <!Entete de la table en question>
+
+                            <!Detail la table>
+                            <tbody>
+                            <!Une ligne d'info>
+                            <tr>
+                                <td>1</td>
+                                <td>Voiture Personnelle</td>
+                                <td><img width="100px" src="public/img/car2.jpg" alt="Photo categories"></td>
+                                <td>
+                                    <a href="" class="btn btn-danger">Modifier</a>
+                                    <a href="" class="btn btn-info">Supprmer</a>
+                                    <a href="" class="btn btn-default">Activer/desactiver</a>
+                                </td>
+                            </tr>
+                            <!Fin Une ligne d'info>
+                            </tbody>
+                            <!Fin Detail la table>
+                        </table>
+
+                        <! Fin Block >
+
+                    </div>
+
+                </div>
+                <!Fin corps principal de la page >
+
+            </div>
+
+            <div class="container">
+                <! Footer du corps principal de la page >
+                <div class="main-footer">
+                    <div class="row">
+                        <p>&copy;Copyright by MIAGE</p>
+                    </div>
+                </div>
+                <!Fin footer du corps principal de la page >
+
+            </div>
+
+        </section>
+        <!-- FIN PRINCIPAL -->
+    </div>
+
+</section>
+<!-- FIN CORPS PROGRAMME -->
+
+<script  src="public/js/jquery.min.js"></script>
+<script  src="public/js/admin.js"></script>
+
+</body>
+</html>

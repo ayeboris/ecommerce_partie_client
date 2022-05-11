@@ -1,0 +1,17 @@
+﻿CODEART,CODECATEGORIE,TITRE,DESCRIPTION,PRIX,QUANTITE,PHOTO,idmarque,date_publication
+"1","1","CHEVROLET CAMARO ZL1","Ni modèle de course (quoique), ni préparation extravagante, cette Chevrolet sublime la définition de la muscle-car, au point d’une faire une supercar.
+Après son temps canon sur le circuit du Nürburgring (Allemagne), il n’y avait plus vraiment de doute, la Camaro ZL1 en a sous la pédale. Et après avoir déjà revendiqué le titre de Camaro la plus puissante jamais produite, la ZL1 pourrait aussi rafler celui de Camaro, voire de Chevrolet, la plus rapide de l’histoire (hors modèles de compétition, bien entendu).
+
+Avec 318,65km/h de moyenne sur l’ovale du site de test de Papenburg, au nord de l'Allemagne, (soit 198mph selon les chiffres officiellement donnés par Chevrolet), et même une pointe à 202,3 miles par heure (325km/h) dans un sens sur l’anneau, aidée par le vent, la Camaro ZL1 montre qu'elle n'avait pas usurpé son record du Nürburgring, devant les Koenigsegg CCX, Nissan GT-R de 2011 ou encore la Lexus LFA.","24000000","0","System.Byte[]","2","2021-09-15 3:10:31 AM"
+"2","1","AUDI Q7 45 TDI 231 QUATTRO ANNÉE 2019","Cylindrée: 3.0L V6 inj. directe turbo
+Puissance: 231 ch à 3250 tr/min
+Boite de vitesse : Automatique
+Transmission: 4x4
+Couple: 500 Nm à 1750 tr/min
+
+Vitesse max: 229 km/h
+Consommation (urbaine / extra urbaine / moyenne): 7.10 / 6.20 / 6.50 L/100 km
+Autonomie optimale: 1371 Km
+Autonomie moyenne: 1308 Km
+Accélération (0 à 100km): 7.1 s
+Rejet de Co2: 172 g/km","14000000","6","System.Byte[]","4","2021-09-15 3:10:31 AM"

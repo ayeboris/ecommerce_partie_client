@@ -1,0 +1,40 @@
+LE DESIGN PATERN : MVC consiste a structurer le projet par partie pour avancer dans le meilleur delai
+et savoir prendre des precautions dans le cas des GROS PROJET.
+LA POO est le meilleur moyen pour avoir le controle parfait sur tous les changements qui surviennent.
+
+Il est importnt de garder la ces structures combinees:
+Routeur(ensemble de condition qui appel le bon le bon controleur = index.php : le plus souvent) + 
+    ### Modeles(Ensemble des fonctions communicant avec la BD) 
+    #### Views(Ensembles des interfaces)
+    ##### Controler(Ensemble des fonctions communicant avec les Modeles ) :contient les VIEWS
+    + POO(POO: Reecriture des Modeles sous formes de classe pour regrouper toutes les fonctions)
+
+Reecrire ce projet en l'adaptant en plus du MVC en POO,chose fait
+
+#-------------------------------------- EQUIPE MIAGE 2021-----------------------------------------------
+Membres du projet:
+KOUAO
+KHADER
+KOLO
+KADOUNO
+DJEKET
+
+Pour un meilleur controle sur le travail et un progres future du Projet, Tout est concu en MVC sous style d'un FrameWork, HAhaha Notre FrameWork
+
+#Package controler: contient toutes les views ;
+Entete: Inclure le package: model/frontend.php
+#Package model: contient toutes les classes et leurs fonctions qui opere des operations dans la BD
+Fichier important php : frontend.php  Renferme toutes les classes qui communiquent avec la BD
+
+Exemle: Modele: AdministrateursManager qui extend avec la classe Manager (Ideme avec toutes les autres classe)
+
+Fichier important php: Manager.php Contient une fonction qui necessite 2 Parametres
+1er  Parametre= REQUETE SQL
+2eme Parametre= Parametre prepares (Un tableau de valeur initialise a null)
+
+#Package view: Contient toutes les vues( Pages qui vont etre affichees )
+
+NB: 2 Champs sont tres important dans les vues:
+
+1er  champ NAME : ( url )	Pour specifier quelle page/vue/VIEW afficher
+2eme champ NAME : ( action )	Pour le traitement a effectue dans la BD

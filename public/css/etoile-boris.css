@@ -1,0 +1,30 @@
+.section-etoiles{
+    transform: rotateY(180deg);
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+}
+
+.section-etoiles input{
+    display: none;
+}
+
+.section-etoiles label{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 30px;
+    height: 50px;
+    background: url('star-regular.svg') no-repeat;
+    vertical-align: middle;
+}
+
+
+.section-etoiles label:hover,
+.section-etoiles input:checked ~ label
+{
+    background: url('star-solid.svg') no-repeat;
+}
+
+
+
